@@ -12,8 +12,8 @@
        PRIMARY SEO
   ═══════════════════════════════════════════════ -->
   <title>AzisDev – Jasa Website Profesional & Solusi Digital UMKM Termurah Indonesia</title>
-  <meta name="description" content="AzisDev menyediakan jasa pembuatan website profesional, konsultasi digital, dan solusi teknologi untuk UMKM di seluruh Indonesia. Website responsif, SEO-friendly, modern, dan harga terjangkau. Konsultasi gratis!">
-  <meta name="keywords" content="jasa website profesional, jasa pembuatan website, solusi digital UMKM, konsultasi website, jasa website murah indonesia, web developer indonesia, jasa website UMKM, azisdev, M Azis Asmara, website bisnis indonesia">
+  <meta name="description" content="AzisDev: Jasa pembuatan website profesional, bot WhatsApp otomatis, dan solusi digital UMKM terpercaya di Indonesia. Harga terjangkau, SEO-friendly, dan responsif. Konsultasi GRATIS!">
+  <meta name="keywords" content="jasa website profesional, jasa pembuatan website, solusi digital UMKM, konsultasi website, jasa website murah indonesia, web developer indonesia, jasa website UMKM, azisdev, M Azis Asmara, website bisnis indonesia, jasa bot whatsapp, jasa bot telegram">
   <meta name="author" content="M. Azis Asmara – AzisDev">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="theme-color" content="#7c3aed">
@@ -24,6 +24,10 @@
   <meta name="coverage" content="Indonesia">
   <meta name="distribution" content="Global">
   <meta name="rating" content="General">
+  <meta name="geo.region" content="ID-SN">
+  <meta name="geo.placename" content="Makassar">
+  <meta name="geo.position" content="-5.1477;119.4327">
+  <meta name="ICBM" content="-5.1477, 119.4327">
 
   <!-- ═══════════════════════════════════════════════
        CANONICAL
@@ -37,9 +41,10 @@
   <meta property="og:site_name" content="AzisDev">
   <meta property="og:locale" content="id_ID">
   <meta property="og:title" content="AzisDev – Jasa Website Profesional & Solusi Digital UMKM">
-  <meta property="og:description" content="Jasa pembuatan website profesional dan solusi digital untuk UMKM di seluruh Indonesia. Responsif, SEO-friendly, harga terjangkau. Konsultasi gratis!">
+  <meta property="og:description" content="Bangun kehadiran digital bisnismu sekarang! Jasa website profesional, bot WhatsApp, dan solusi teknologi untuk UMKM. Konsultasi gratis!">
   <meta property="og:url" content="https://azisdev.my.id/">
   <meta property="og:image" content="https://azisdev.my.id/img/logo.webp">
+  <meta property="og:image:secure_url" content="https://azisdev.my.id/img/logo.webp">
   <meta property="og:image:width" content="500">
   <meta property="og:image:height" content="500">
   <meta property="og:image:alt" content="AzisDev – Jasa Website & Solusi Digital UMKM Indonesia">
@@ -53,6 +58,13 @@
   <meta name="twitter:title" content="AzisDev – Jasa Website Profesional & Solusi Digital UMKM">
   <meta name="twitter:description" content="Jasa pembuatan website profesional dan solusi digital untuk UMKM Indonesia. Responsif, SEO-friendly, harga terjangkau.">
   <meta name="twitter:image" content="https://azisdev.my.id/img/logo.webp">
+  <meta name="twitter:image:alt" content="Logo AzisDev – Solusi Digital Terpercaya">
+  <meta name="twitter:label1" content="Layanan Utama">
+  <meta name="twitter:data1" content="Website & Otomasi Bot">
+  <meta name="twitter:label2" content="Konsultasi">
+  <meta name="twitter:data2" content="GRATIS via WhatsApp">
+  <meta name="apple-mobile-web-app-title" content="AzisDev">
+  <meta name="application-name" content="AzisDev">
 
   <!-- ═══════════════════════════════════════════════
        FAVICON
@@ -89,7 +101,12 @@
         "name": "AzisDev",
         "alternateName": "Azis Dev",
         "url": "https://azisdev.my.id/",
-        "logo": "https://azisdev.my.id/img/logo.webp",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://azisdev.my.id/img/logo.webp",
+          "width": "500",
+          "height": "500"
+        },
         "image": "https://azisdev.my.id/img/logo.webp",
         "description": "AzisDev menyediakan jasa pembuatan website profesional, konsultasi digital, dan solusi teknologi untuk UMKM di seluruh Indonesia.",
         "founder": {
@@ -103,6 +120,9 @@
         },
         "telephone": "+62895324670592",
         "email": "muhammadAzis070409@gmail.com",
+        "priceRange": "$$",
+        "paymentAccepted": "Bank Transfer, E-Wallet",
+        "currenciesAccepted": "IDR",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Makassar",
@@ -120,6 +140,12 @@
         },
         "serviceType": ["Website Development", "Digital Consulting", "UMKM Digital Solutions", "WhatsApp Bot", "Telegram Bot"],
         "openingHours": "Mo-Su 08:00-22:00",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+62895324670592",
+          "contactType": "customer service",
+          "availableLanguage": ["Indonesian", "English"]
+        },
         "sameAs": [
           "https://www.instagram.com/mazisasmara",
           "https://github.com/mazisasmara",
@@ -132,6 +158,17 @@
           "bestRating": "5",
           "worstRating": "1"
         }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://azisdev.my.id/"
+          }
+        ]
       },
       {
         "@type": "FAQPage",
@@ -201,7 +238,7 @@
 
       <!-- Logo -->
       <a href="/" class="nav__logo" aria-label="AzisDev – Beranda">
-        <img src="/img/logo.webp" alt="AzisDev logo" width="32" height="32" class="nav__logo-img">
+        <img src="/img/logo.webp" alt="AzisDev logo - Jasa Website Profesional" width="32" height="32" class="nav__logo-img" fetchpriority="high">
         <!-- <span class="nav__logo-text"><span class="accent">Azis</span>Dev</span> -->
       </a>
 
@@ -733,7 +770,7 @@
 
       <div class="footer__brand">
         <a href="/" class="footer__logo" aria-label="AzisDev beranda">
-          <img src="/img/logo.webp" alt="AzisDev" width="28" height="28" loading="lazy">
+          <img src="/img/logo.webp" alt="Logo AzisDev - Jasa Pembuatan Website & Solusi Digital Indonesia" width="28" height="28" loading="lazy">
           <span><span class="accent">Azis</span>Dev</span>
         </a>
         <p>Jasa website profesional & solusi digital untuk UMKM Indonesia. Kualitas premium, harga rakyat.</p>
