@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://azisdev.my.id/sitemap.xml
+Sitemap: https://azisdev.biz.id/sitemap.xml
